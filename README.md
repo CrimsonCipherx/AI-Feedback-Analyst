@@ -1,8 +1,8 @@
 # AI Customer-Service & Feedback Analyst
 
-A portfolio project that connects real-world retail experience with Python, AI, data analysis, and business intelligence.
+A portfolio project of mine that connects real-world retail experience with Python, AI, data analysis, and business intelligence.
 
-## What it does
+ What it does:
 
 1. Uploads a CSV/XLSX of customer feedback.
 2. Detects a likely feedback/message column.
@@ -16,17 +16,7 @@ A portfolio project that connects real-world retail experience with Python, AI, 
 6. Lets managers filter feedback and download the enriched CSV.
 7. Generates an AI executive summary.
 
-## Why this project is strong
-
-The point is not "I called an LLM."
-
-The point is:
-
-> I used AI to turn unstructured customer feedback into structured information that a manager can act on.
-
-Your retail background gives the project a believable business story.
-
-## Run locally
+How to Run locally:
 
 ```bash
 python -m venv .venv
@@ -62,9 +52,6 @@ customer_message
 
 It also recognizes common alternatives such as `review`, `comment`, `feedback`, `message`, and `text`.
 
-## Important portfolio rule
-
-The included dataset is synthetic. Never upload real customer data containing names, phone numbers, emails, addresses, order IDs, or other sensitive information to a public demo.
 
 ## Architecture
 
@@ -91,7 +78,7 @@ Enriched Pandas DataFrame
    +--> Executive summary
 ```
 
-## Next upgrades
+## Next upcoming upgrades
 
 - Add confidence scores.
 - Add monthly trend analysis when a date column exists.
